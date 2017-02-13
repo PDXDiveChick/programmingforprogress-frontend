@@ -1,0 +1,11 @@
+language: node_js
+node_js:
+- '6.0'
+install: npm install
+deploy:
+  provider: s3
+  access_key_id: AKIAJ4B6PTPQ63WCPDLQ
+  bucket: hackoregon.programmingforprogress.example
+  region: us-west-2
+  secret_access_key:
+    secure: h8iDy7q4mg6meosrfl+t3SZTNNNlQeZVkjSluhhy/k1pI5oIoWwP/Dz3Y/Ktk0mmNOjVbRGtguxNPkMxciRS3RynXIizOd1HwcRWHupDD1Cibvc4xUz6Ubd3EBJkOL61PrHTBRhNEbboPIEyudeX9CT01AIjolP/xMXlOAmrc5FiOxHO85dSbEeSlgWuAjrTD4HRFUkJax2/7fShet0xI19Hjv0WWiK2SKFt8G4AXhaRAkxa2DKbCRAbexz/MyrhqTFo9awPU9CMRAdeasgUHu5axQedbggLAGN6THiHQr9m1bUhbupp02y494l8PH8yFTyuPpxx8Vex3ADY0FGFG600O7ng6Za5OWLTpJpEfKOiL4BaiGhLXv8ravakpzXrURlyeRfJc2l5bQHWDnf/8TG0w19DB5HwyPdq0sZy7mwAajJl4myBUdjDXqA3/9CuuAcY959WiUMR3VuH0pb5XYrXA0x0Q0tGEBDVhFan5VJSxnP09Kqt9AiED3jFgm6PkZzue6N7qjIke75ATAV1BbRJzoVx5+NXh/PNcEtdU63PyW4+E84/pO6gpyAvs0tPZBPmPGBmhNLiZlb1eK/rEFRbIHF5MPnyBEsW9Su1wwd8U/BZ+6gMIkt8duP9g/tamduaIAxC0lJX0TIbOw03/KuQs8eXC7+ryju2s2QbDbI=
